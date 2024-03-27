@@ -10,3 +10,12 @@ Raw data was collected directly from the Insurance Company of British Columbia (
 
 - https://www.icbc.com/about-icbc/newsroom/Statistics
 - https://www.icbc.com/road-safety/community/intersection-safety-camera-program
+
+
+
+Ongoing work and known issues:
+- Matching not generating high propensity scores - plan to address by adding additional covariates
+- Adjust matching threshold for consistency with literature (Marco Caliendo & Sabine Kopeinig, 2008)
+- Have not plotted matching histogram to verify results of matching
+- Robustness check of alternate matching method (kernel smoothing + kmeans a potential option)
+- Additional robustness to restrict smaple to only intersections with red light cameras, as this is the cohort the province was looking at
