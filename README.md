@@ -1,0 +1,1 @@
+This project uses python in a difference-in-difference framework to estimate the causal effect of speed cameras on in-intersection collisions in BC. This is a work in progress and will be updated continuously.
