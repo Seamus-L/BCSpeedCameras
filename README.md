@@ -1,6 +1,8 @@
 This project uses python in a difference-in-difference framework to estimate the causal effect of speed cameras on in-intersection collisions in British Columbia, Canada. All work is completed in jupityr notebooks for python. Of note, this project uses a matching framework to construct a suitable control group for the difference-in-difference regression.
 
-This is a work in progress and will be updated continuously.
+This is a work in progress and will be updated ocassionally.
+
+UPDATE: Recent work has produced a null-result, in contrast with the strongly significant results found initially. Must work later to diagnose whether it is a true negative, or if there are more issues with matching, as the histogram does not reflect a high-quality matching, although, pre-trends are much more parallel now.
 
 
 For background, details of methodology, and outcomes, see the PDF report that accompanies the file.
